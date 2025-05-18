@@ -1,0 +1,6 @@
+
+<script>
+  if (localStorage.getItem('authenticated') !== 'yes') {
+    window.location.href = 'login.html';
+  }
+</script>
