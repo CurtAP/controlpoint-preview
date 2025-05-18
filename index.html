@@ -1,29 +1,12 @@
 <!DOCTYPE html>
-<html>
-<head>
-  <meta charset="UTF-8">
-  <title>ControlPoint Suite</title>
-  <link rel="stylesheet" href="styles.css">
-</head>
-<body>
-  <h1 style="text-align:center;">Welcome to ControlPoint</h1>
-
-  <p style="text-align:center; margin-top:2rem;">
-    <a class="button" href="sitdown.html">View Sit-Down Kit</a>
-  </p>
-
-  <p style="text-align:center; margin-top:1rem;">
-    <a class="button" href="training.html">Explore Training Library</a>
-  </p>
-
-  <p style="text-align:center; margin-top:1rem;">
-    <a class="button" href="tools.html">Printable Tools</a>
-  </p>
-</body>
-
-<script>
-  if (localStorage.getItem('authenticated') !== 'yes') {
-    window.location.href = 'login.html';
-  }
-</script>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ControlPoint Suite</title>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
 </html>
